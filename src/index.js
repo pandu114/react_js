@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Mounting from './components/Mounting';
+import EventHandling from './components/EventHandling'
+import Lists from './components/Lists';
+import Forms from './components/Forms';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Mounting />
+    <EventHandling/>
+    <Lists />
+    <Forms/>
   </React.StrictMode>,
   document.getElementById('root')
 );
